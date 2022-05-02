@@ -14,6 +14,7 @@ public class DamageAnimation : MonoBehaviour
     public bool dealDamageOnCollision = false;
     public Animator animator;
 
+    // Comment for commit //
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy" && dealDamageOnTriggerEnter)
